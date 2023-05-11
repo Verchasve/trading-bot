@@ -1,6 +1,7 @@
-Initially create 2 different process. 
+Initially create 2 different services. 
 
 1. Create a process which consumes data periodically for all given Stocks exchange and Crypto. 
+
   > Step1. Create cron job which runs every 5 mins interval and pull data from all different Free version Stocks and crypto API. 
 
   > Step2. Create and maintain an Index for every stocks and crypto. Find a resourceful API to keep track of Historical data in order to view Delta values for any given timestamps. 
@@ -13,11 +14,15 @@ Initially create 2 different process.
  
  * Identify the current market situation ( Social media , news and other factors which can affect the future market ). Possibly create a service which can generate some probability score / index based on different factors and able to include that in DMs. 
 
+ - In order to gather this information list all popular data feeds related. 
+
+- Find a model which can be used to list context / score about the symbol. 
+
 
 2. Create a Decision Making Serive ( DMS ).
-   * Using ML data able to comprehend the current Market situation and able to make decisions to sell or buy stocks. 
-   * Should send a notification for approval in order to make a transaction in initial stage.
 
-   
+   * Using ML data able to comprehend the current Market situation and able to make decisions to sell or buy stocks. 
+
+   * Should send a notification for approval in order to make a transaction in initial stage.
 
 
